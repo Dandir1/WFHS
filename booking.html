@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Booking - The 6th Layer</title>
+  <link rel="stylesheet" href="style.css">
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .brochure {
+      background-color: #8b9198;
+      color: #ffffff;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .brochure h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .brochure p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .brochure .highlight {
+      font-weight: bold;
+      color: #FFC600; /
+    }
+    .brochure .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .brochure .feature {
+      width: 33.33%;
+      padding: 20px;
+    }
+
+    .brochure .feature img {
+      width: 100%;
+      max-width: 200px;
+      margin-bottom: 10px;
+    }
+
+    .brochure .feature h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .brochure .feature p {
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 class="animation-element"><center>The 6th Layer</center></h1>
+    <h5 class="animation-element"><center>A Legacy of Innovation</center></h5>
+    <h1><center><a href="index.html"><img src="the6thlayerlogo.png" alt="The 6th Layer"></center></h1>
+  </header>
+  <nav>
+    <center>
+    <a href="index.html" class="button">Home</a>
+    <a href="about.html" class="button">About</a>
+    <a href="destinations.html" class="button">Destinations</a>
+    <a href="booking.html" class="button">Booking</a>
+    <a href="contact.html" class="button">Contact</a>
+    </center>
+  </nav>
+
+    <div class="brochure">
+    <h1>Welcome to <span class="highlight">The 6th Layer</span></h1>
+    <p>Embark on the journey of a lifetime and explore the wonders of space with our premier space tourism company.</p>
+
+    <div class="features">
+      <div class="feature">
+        <img src="img1webm.png" alt="img1webm">
+        <h3>Unforgettable Experiences</h3>
+        <p>Discover breathtaking views, zero-gravity adventures, and immersive spacewalks that will leave you in awe.</p>
+      </div>
+      <div class="feature">
+        <img src="luxacc.png" alt="luxacc">
+        <h3>Luxurious Accommodations</h3>
+        <p>Relax in our state-of-the-art space stations designed for comfort, featuring spacious living areas and stunning views of the cosmos.</p>
+      </div>
+      <div class="feature">
+        <img src="astron.webp" alt="ast">
+        <h3>Expert Guides</h3>
+        <p>Our team of experienced astronauts will accompany you every step of the way, ensuring your safety and providing fascinating insights into space exploration.</p>
+      </div>
+    </div>
+  </div>
+
+  
+  <main>
+    <h2>Booking</h2>
+    
+    <p>To book your space travel experience, please fill out the form below:</p>
+    
+    <form action="submit_booking.html" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      
+      <label for="destination">Destination:</label>
+      <select id="destination" name="destination">
+        <option value="moon">Moon</option>
+        <option value="mars">Mars</option>
+        <option value="europa">Jupiter's Moon - Europa</option>
+      </select><br><br>
+      
+      <input type="submit" value="Submit">
+    </form>
+    
+    <p>For more information, look at our brochure above.</p>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 The 6th Layer. All rights reserved.
+    <br>
+    ALL CONTENT AND TEMPLATES ARE CREATED BY OUR TEAM</p>
+  </footer>
+</body>
+</html>
